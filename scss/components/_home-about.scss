@@ -1,0 +1,85 @@
+
+// ==== ==== About part start here ==== ====
+
+#about {
+    padding-top: 60px;
+    padding-bottom: 55px;
+    background: $sec-bg;
+    border-bottom: 2px solid #000000;
+    border-bottom: 1px solid #290a59;
+    position: relative;
+    .light_bar {
+        @include light_bar_footer ();
+    }
+}
+
+.about_item {
+    h3 {
+        @include sub-head1 ();
+        padding-bottom: 33px;
+    }
+    p {
+        @include font-dynamic ('Nunito', 200, 16px, #fff);
+        line-height: 26px;
+        max-width: 370px;
+    }
+    .about_social {
+        margin-top: 30px;
+        a {
+            @include link-social ();
+            margin-right: 15px;
+            &:hover {
+                @include link-social-hov();
+            }
+        }
+    }
+    .about_link {
+        justify-content: flex-start;
+        gap: 65px;
+        padding-top: 5px;
+        a {
+            display: block;
+            @include sub-head2 ();
+            color: $main-nav-fc;
+            line-height: 20px;
+            padding-bottom: 20px;
+            border-bottom: 1px solid transparent;
+            transition: .3s;
+            &:hover {
+                color: $hov-nav-fc;
+                text-shadow: 2px 2px 4px #1E1104,
+                0 0 2px #1E1104,
+                0 0 4px #1E1104,
+                0 0 8px #1E1104,
+                0 0 30px rgba(255, 57, 219, 0.267),
+                0 0 40px rgba(255, 57, 219, 0.137),
+                0 0 50px rgba(255, 57, 219, 0.061);
+            }
+        }
+    }
+}
+
+.security_part {
+
+    .about_sec {
+        margin-bottom: 30px;
+        gap: 50px;
+        padding-top: 5px;
+        .sec_photo {
+            align-self: center;
+        }
+        .sec_link {
+            align-self: center;
+            margin-right: 30px;
+            a {
+                @include sub-head2 ();
+                transition: .3s;
+                &:hover {
+                    color: $faq-hov;
+                }
+            }
+        }
+    }
+}
+
+// ==== ==== About part end here ==== ====

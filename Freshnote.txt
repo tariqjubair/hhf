@@ -1,0 +1,120 @@
+
+
+font-family: 'Anton', sans-serif;
+font-family: 'Nunito', sans-serif;
+
+a {
+    @include font-nav-btn();
+    text-shadow: 5px 5px 2px #A60084;
+    background: rgb(166,0,132);
+    background: linear-gradient(3deg, rgba(166,0,132,1) 0%, rgba(255,57,220,1) 100%, rgba(255,57,220,1) 100%);
+    padding: 14px 30px 15px 30px;
+    border-radius: 5px;
+    box-shadow: 0px 6px 0px 0px rgba(102,19,85,1);
+    transition: all linear .3s;
+    &:hover {
+        text-shadow: 5px 5px 2px #5813b8;
+        background: rgb(87,13,200);
+        background: linear-gradient(3deg, rgba(87,13,200,1) 0%, rgba(158,78,252,1) 100%);
+        box-shadow: 0px 6px 0px 0px rgba(58,0,144,1);
+}
+
+
+.about_social {
+    margin-top: 30px;
+    a {
+        @include link-social ();
+        margin-right: 15px;
+        &:hover {
+            @include link-social-hov();
+        }
+    }
+}
+
+<div class="light_bar">
+    <img src="images/shape.png" alt="">
+</div>
+
+.light_bar {
+    position: absolute;
+    bottom: -19px;
+    left: 0;
+    animation: 5s roam linear .3s infinite alternate;
+}
+
+
+xsm >> 65 60
+sm >> 70 65
+md >> 75 70
+
+
+<nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
+    <ol class="breadcrumb">
+        <li class="breadcrumb-item"><a href="#">Home</a></li>
+        <li class="breadcrumb-item active" aria-current="page">About Us</li>
+    </ol>
+</nav>
+
+
+Primary BG > Font Head > Drop shadow ======================
+
+filter: drop-shadow(2mm 2mm #150035c2);
+
+
+/* ================== ABOUT_PAGE X-sm =================== */
+/* oooooooooooooooooooooooooooooooooooooooooooooooooooooo */
+
+
+
+330080 15%
+
+
+
+<div class="row g-0 link_pos w-100 d-none d-lg-block">
+    <div class="link_part d-flex">
+        <div class="col-lg-4">
+            <div class="link_item text-center">
+                <h3>01</h3>
+                <h4>Register</h4>
+                <p>Download the app and signup for account</p>
+            </div>
+        </div>
+        <div class="col-lg-4">
+            <div class="link_item text-center">
+                <h3>02</h3>
+                <h4>Get Ready</h4>
+                <p>Deposit & get ready for play betting</p>
+            </div>
+        </div>
+        <div class="col-lg-4">
+            <div class="link_item text-center">
+                <h3>03</h3>
+                <h4>Enjoy</h4>
+                <p>Betting more and more & enjoy game</p>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="row g-sm-2 d-lg-none">
+    <div class="col-12 col-sm-4">
+        <div class="link_item_sm text-center px-sm-1">
+            <h3>01</h3>
+            <h4>Register</h4>
+            <p>Download the app and signup for account</p>
+        </div>
+    </div>
+    <div class="col-12 col-sm-4">
+        <div class="link_item_sm text-center px-sm-1">
+            <h3>02</h3>
+            <h4>Get Ready</h4>
+            <p>Deposit & get ready for play betting</p>
+        </div>
+    </div>
+    <div class="col-12 col-sm-4">
+        <div class="link_item_sm text-center px-sm-1">
+            <h3>03</h3>
+            <h4>Enjoy</h4>
+            <p>Betting more and more & enjoy game</p>
+        </div>
+    </div>
+</div>

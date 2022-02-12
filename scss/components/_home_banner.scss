@@ -1,0 +1,111 @@
+
+// ==== ==== Banner Part Start Here ==== ====
+
+#banner {
+    padding-top: 245px;
+    padding-bottom: 385px;
+    background: $pri-bg;
+}
+
+.ban_lf {
+    position: relative;
+    img {
+        position: absolute;
+        top: -75px;
+        left: -58px;
+    }
+}
+
+.ban-rt {
+    position: relative;
+    h4 {
+        @include font-dynamic ('Nunito', 400, 20px, #ffffff);
+        position: absolute;
+        top: 30px;
+        left: 60px;
+    }
+    h3 {
+        @include font-head1 ();
+        font-size: 330px;
+        margin-top: 60px;
+        margin-left: 50px;
+        padding-top: 12px;
+        background-image: linear-gradient(#fcb100, #fcb100 48%, #d36c05, #db7209 0%, #feb510 100%);
+        -webkit-text-stroke: 2px #ffcd5785;
+    }
+    .ban_rt_text {
+        position: absolute;
+        top: 375px;
+        left: 60px;
+        p {
+            @include font-para ();
+            min-width: 475px;
+            margin: 0 auto;
+        }
+        a {
+            margin-top: 25px;
+            @include link-btn-main ();
+            &:hover {
+                @include link-btn-main-hov ();
+            }
+        }
+    }
+}
+
+.link_part {
+    clip-path: polygon(0 5%, 100% 0, 100% 100%, 0 95%);
+    width: 100%;
+    height: 220px;
+    background: $lnk_bg;
+    border-bottom-left-radius: 7%;
+    border-top-left-radius: 7%;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    // box-shadow: inset 0px -15px 1px 1px #1f0743;
+    .link_item {
+        box-shadow: inset 8px 0px 15px 10px rgba(31,7,67,0.4);
+        height: 100%;
+        h3 {
+            @include font-head1 ();
+            margin-top: 40px;
+            margin-bottom: 15px;
+            filter: drop-shadow(0mm 1mm rgba(17, 0, 16, 0.4));
+        }
+        h4 {
+            @include sub-head1 ();
+        }
+        p {
+            @include font-para ();
+            padding-top: 15px;
+        }
+    }
+}
+
+.link_pos {
+    position: absolute;
+    top: 640px;
+    left: 0;
+    filter: drop-shadow(0px 6px 0px #270063);
+}
+
+.link_item_sm {
+    padding-bottom: 15px;
+    background: $lnk_bg;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    h3 {
+        @include font-head1 ();
+        margin-top: 40px;
+        margin-bottom: 15px;
+        filter: drop-shadow(0mm 1mm rgba(17, 0, 16, 0.4));
+    }
+    h4 {
+        @include sub-head1 ();
+    }
+    p {
+        @include font-para ();
+        padding-top: 15px;
+    }
+}
+
+// ==== ==== Banner Part Ends Here ==== ====

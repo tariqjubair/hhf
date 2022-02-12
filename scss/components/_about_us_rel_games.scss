@@ -1,0 +1,60 @@
+
+// ==== ==== About_US: Rel_games start here ==== ====
+
+#about_page {
+    #rel_game {
+        padding-top: 100px;
+        padding-bottom: 145px;
+        background: $pri-bg;
+    }
+    .rel_slider {
+        position: relative;
+        .slick-dots {	
+            display: flex;
+            justify-content: center;
+            margin: 0;
+            padding: 10px;
+            list-style-type: none;
+            position: absolute;
+            bottom: -65px;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+        
+        .slick-dots li {
+            margin: 10px;
+        }
+        
+        .slick-dots button {
+            display: block;
+            width: 15px;
+            height: 15px;
+            padding: 0;
+            border: none;
+            background: #570dc8;
+            background: linear-gradient(3deg, rgba(87,13,200,1) 0%, rgba(158,78,252,1) 100%);
+            box-shadow: 0px 2px 0px 0px rgba(58,0,144,1);
+            text-indent: -9999px;
+            border-radius: 50%;
+        }
+        
+        .slick-dots li.slick-active button {
+            width: 17px;
+            height: 17px;
+            background: #a60084;
+            background: linear-gradient(3deg, rgba(166,0,132,1) 0%, rgba(255,57,220,1) 100%, rgba(255,57,220,1) 100%);
+            box-shadow: 0px 2px 0px 0px rgba(102,19,85,1),
+        }
+        .slick-slide>div {	
+            padding: 0 15px;
+        }
+    }
+}
+.slick-active.slick-center{
+    .rel_olay{
+        opacity: 1;
+        visibility: visible;
+        height: 100%;
+    }
+}
+// ==== ==== About_US: Rel_games End here ==== ====

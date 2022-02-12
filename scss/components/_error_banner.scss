@@ -1,0 +1,25 @@
+
+// ==== ==== Error: Banner part start here ==== ====
+
+#error_page {
+    #banner {
+        padding-top: 260px;
+        padding-bottom: 90px;
+        .ban_btn {
+            a {
+                @include link-btn-main ();
+                margin-top: 60px;
+                &:hover {
+                    @include link-btn-main-hov ();
+                }
+            }
+        }
+    }
+}
+
+
+
+
+
+
+// ==== ==== Error: Banner part end here ==== ====

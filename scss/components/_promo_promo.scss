@@ -1,0 +1,28 @@
+
+// ==== ==== PROMO: Promo start here ==== ====
+
+#promo_page {
+    #promo {
+        padding-top: 120px;
+        padding-bottom: 90px;
+        background: $sec-bg;
+        .promo_lf {
+            position: relative;
+            img {
+                position: absolute;
+                top: -50px;
+                right: 0;
+                width: 110%;
+            }
+        }
+        .promo_rt {
+            h3 {
+                @include font-head1 ();
+            }
+            p {
+                @include font-para ();
+                font-size: 20px;
+            }
+        }
+    }
+}

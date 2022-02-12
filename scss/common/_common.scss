@@ -1,0 +1,163 @@
+
+/* ==== ==== All Common CSS Start ==== ==== */
+
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+a, a:hover {
+    text-decoration: none;
+    display: inline-block;
+}
+
+ul, ol {
+    list-style-type: none;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    margin: 0;
+    padding: 0;
+    line-height: 0.8;
+}
+
+.body {
+    overflow: hidden;
+}
+
+button:focus {
+    border: none;
+    outline: none;
+    box-shadow: none;
+}
+
+html {
+    scroll-padding-top: 80px;
+}
+
+// ================ ===============
+
+.page_header {
+    h2 {
+        @include font-head1 ();
+        line-height: 55px;
+    }
+}
+
+.breadcrumb {
+    justify-content: center;
+    a {
+        @include font-crump ();
+        transition: .3s;
+        &:hover {
+            color: $hov-nav-fc;
+        }
+    }
+    .breadcrumb-item.active {
+        @include font-crump ();
+        color: $faq-hov;
+    }
+    
+}
+
+// ================ ===============
+
+.mt_30 {
+    margin-top: 30px;
+}
+
+.mt_15 {
+    margin-top: 15px;
+}
+
+.mb_30 {
+    margin-bottom: 30px;
+}
+
+.mr_0 {
+    margin-right: 0!important;
+}
+
+.mb_0 {
+    margin-bottom: 0!important;
+}
+
+.mt_0 {
+    margin-top: 0!important;
+}
+.ml_0 {
+    margin-left: 0!important;
+}
+
+// ================ ===============
+
+@keyframes roam {
+    from {
+        left: -2%;
+    }
+    to {
+        left: 92%;
+    }
+}
+
+@keyframes roam_sm {
+    from {
+        left: 2%;
+    }
+    to {
+        left: 80%;
+    }
+}
+
+@keyframes roam_lg {
+    from {
+        left: 0;
+    }
+    to {
+        left: 85%;
+    }
+}
+
+@keyframes roam_footer {
+    from {
+        left: 0;
+    }
+    to {
+        left: 93%;
+    }
+}
+
+@keyframes roam_footer_sm {
+    from {
+        left: 15%;
+    }
+    to {
+        left: 78%;
+    }
+}
+
+@keyframes roam_footer_lg {
+    from {
+        left: 5%;
+    }
+    to {
+        left: 90%;
+    }
+}
+
+// ================ ===============
+
+#about_page, #games_page, #promo_page {
+    #about {
+        .light_bar {
+            bottom: -11px;
+        }
+    }
+}
+
+
+
+/* ==== ==== All Common CSS End ==== ==== */
+

@@ -1,0 +1,90 @@
+
+// ==== ==== Button Item Mixin ==== ====
+
+@mixin link-btn (){
+    font-family: 'Anton', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: #fff;
+    text-shadow: 5px 5px 2px #5813b8;
+    background: #570dc8;
+    background: linear-gradient(3deg, rgba(87,13,200,1) 0%, rgb(158, 78, 252) 100%);
+    padding:  14px 30px 15px 30px;
+    border-radius: 5px;
+    box-shadow: 0px 6px 0px 0px #3a0090;
+    transition: .3s;
+}
+
+@mixin link-btn-hov (){
+    text-shadow: 5px 5px 2px #A60084;
+    background: #a60084;
+    background: linear-gradient(3deg, rgba(166,0,132,1) 0%, rgba(255,57,220,1) 100%, rgba(255,57,220,1) 100%);
+    box-shadow: 
+    0px 6px 0px 0px rgba(102,19,85,1),
+    0 0 30px rgba(255, 57, 219, 0.356);
+}
+
+@mixin link-btn-main (){
+    font-family: 'Anton', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    color: #fff;
+    text-shadow: 5px 5px 2px #5813b8;
+    background: #570dc8;
+    background: linear-gradient(3deg, rgba(87,13,200,1) 0%, rgba(158,78,252,1) 100%);
+    padding:  12px 30px 12px 30px;
+    border-radius: 5px;
+    box-shadow: 0px 6px 0px 0px rgba(58,0,144,1);
+    transition: .3s;
+}
+
+@mixin link-btn-main-hov (){
+    text-shadow: 5px 5px 2px #A60084;
+    background: #a60084;
+    background: linear-gradient(3deg, rgba(166,0,132,1) 0%, rgba(255,57,220,1) 100%, rgba(255,57,220,1) 100%);
+    box-shadow: 
+    0px 6px 0px 0px rgba(102,19,85,1),
+    0 0 30px rgba(255, 57, 219, 0.356);
+}
+
+@mixin link-social (){
+    height: 50px;
+    width: 50px;
+    background: rgb(87,13,200);
+    background: linear-gradient(0deg, rgba(87,13,200,1) 0%, rgba(158,78,252,1) 100%);
+    font-size: 20px;
+    color: #fff;
+    text-shadow: 5px 5px 2px #5813b8;
+    box-shadow: 0px 3px 0px 0px rgba(58,0,144,1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: .3s;
+}
+
+@mixin link-social-hov(){
+    text-shadow: 5px 5px 2px #A60084;
+    background: #a60084;
+    background: linear-gradient(3deg, rgba(166,0,132,1) 0%, rgba(255,57,220,1) 100%, rgba(255,57,220,1) 100%);
+    box-shadow: 
+    0px 3px 0px 0px rgba(102,19,85,1),
+    0 0 30px rgba(255, 57, 219, 0.356);
+}
+
+// ================== ================
+
+@mixin light_bar (){
+    position: absolute;
+    bottom: -12px;
+    left: 0;
+    animation: 3s roam linear .1s infinite alternate;
+    animation-timing-function: ease-out;
+}
+
+@mixin light_bar_footer (){
+    position: absolute;
+    bottom: -10px;
+    left: 0;
+    animation: 5s roam_footer linear .1s infinite alternate;
+    animation-timing-function: ease-out;
+}

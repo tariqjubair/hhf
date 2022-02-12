@@ -1,0 +1,31 @@
+
+// ==== ==== Free_Spin Start Here ==== ====
+
+#free_spin {
+    padding-top: 100px;
+    padding-bottom: 65px;
+    background: $pri-bg;
+}
+
+.spin_text {
+    h3 {
+        @include font-head1 ();
+        margin-top: 80px;
+        margin-bottom: 42px;
+    }
+    p {
+        @include font-para ();
+        padding-bottom: 50px;
+    }
+    .spin_btn {
+        display: inline-block;
+        a {
+            @include link-btn-main ();
+            &:hover {
+                @include link-btn-main-hov ();
+            }
+        }
+    }
+}
+
+// ==== ==== Free_Spin End Here ==== ====

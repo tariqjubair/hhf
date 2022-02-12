@@ -1,0 +1,114 @@
+
+// ==== ==== Price Part Start Here ==== ====
+
+#price {
+    padding-top: 100px;
+    padding-bottom: 610px;
+    background: $sec-bg;
+}
+
+#price2 {
+    padding-top: 100px;
+    padding-bottom: 610px;
+    background: $sec-bg;
+}
+
+.price_head {
+    h3 {
+        @include font-head1 ();
+        margin-bottom: 72px;
+    }
+}
+
+.price_div {
+    position: relative;
+    .price_hd {
+        width: 100%;
+        padding-top: 8px;
+        padding-bottom: 7px;
+        background: rgb(2,0,36);
+        background: linear-gradient(0deg, rgba(2,0,36,1) 0%, rgba(166,0,132,1) 0%, rgba(255,57,220,1) 100%);
+        box-shadow: 0px 6px 0px 0px rgba(102,19,85,1);
+        border-top-left-radius: 8px;
+        border-top-right-radius: 8px;
+        position: absolute;
+        top: -25px;
+        left: 0;
+        opacity: 0;
+        visibility: hidden;
+        transition: .3s;
+        z-index: 99;
+        h4 {
+            @include sub-head2 ();
+            font-size: 20px;
+            text-shadow: 3px 3px 2px #661355;
+        }
+    }
+    .price_item {
+        width: 100%;
+        background: rgb(2,0,36);
+        background: linear-gradient(0deg, rgba(2,0,36,1) 0%, rgba(87,13,200,1) 0%, rgba(158,78,252,1) 100%);
+        border-bottom-left-radius: 8px;
+        border-bottom-right-radius: 8px;
+        border-top-left-radius: 8px;
+        border-top-right-radius: 8px;
+        position: absolute;
+        top: 0;
+        left: 0;
+        transition: .3s;
+        .price_top {
+            border-bottom: 1px solid #6428b5;
+            transition: .3s;
+            h3 {
+                @include sub-head1 ();
+                padding-top: 60px;
+                padding-bottom: 25px;
+            }
+            h4 {
+                @include font-dynamic ('Nunito', 700, 50px, #ffffff);
+            }
+            p {
+                @include font-dynamic ('Nunito', 400, 14px, #ffffff);
+                padding-top: 12px;
+                padding-bottom: 30px;
+            }
+        }
+        .price_btm {
+            padding-top: 14px;
+            padding-bottom: 40px;
+            p {
+                @include sub-head2 ();
+            }
+        }
+        a {
+            @include link-btn-main ();
+            position: absolute;
+            bottom: -30px;
+            left: 50%;
+            transform: translateX(-50%);
+            &:hover {
+                @include link-btn-main-hov ();
+            }
+        }
+        
+    }
+    &:hover {
+        .price_hd {
+            opacity: 1;
+            visibility: visible;
+            
+        }
+        .price_item {
+            top: 33px;
+            border-top-left-radius: 0;
+            border-top-right-radius: 0;
+        }
+    }
+}
+
+// .slick-slide > div {
+//     padding: 0 15px;
+// }
+
+
+// ==== ==== Price Part End Here ==== ====

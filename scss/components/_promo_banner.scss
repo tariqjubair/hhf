@@ -1,0 +1,68 @@
+
+// ==== ==== PROMO: Banner start here ==== ====
+
+#promo_page {
+    #banner {
+        padding-top: 90px;
+        padding-bottom: 0;
+        background: $pri-bg;
+        .promo_bg {
+            padding-top: 395px;
+            padding-bottom: 480px;
+            background: url(../images/promo_new_bg.png);
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+            .promo_text {
+                position: absolute;
+                top: -50px;
+                left: 280px;
+                h4 {
+                    @include font-head1 ();
+                    text-transform: uppercase;
+                    font-size: 90px;
+                    display: block;
+                    filter: drop-shadow(0mm 2mm #11000f);
+                }
+            }
+            .pro_ban_item {
+                position: absolute;
+                top: -145px;
+                right: 45px;
+                .pro_ban_rt {
+                    // position: relative;
+                    h5 {
+                        @include font-head1 ();
+                        font-size: 190px;
+                        padding-top: 12px;
+                        background-image: linear-gradient(#fcb100, #fcb100 48%, #d36c05, #db7209 0%, #feb510 100%);
+                        -webkit-text-stroke: 2px #ffcd5785;
+                    }
+                    h3 {
+                        @include font-dynamic ('Anton', 400, 56px, #fff);
+                        text-transform: uppercase;
+                        padding-top: 20px;
+                        padding-bottom: 28px;
+                    }
+                    h4 {
+                        @include font-dynamic ('Anton', 400, 91px, #fff);
+                        text-transform: uppercase;
+                        padding-bottom: 52px;
+                    }
+                    a {
+                        @include link-btn-main ();
+                        width: 330px;
+                        &:hover {
+                            @include link-btn-main-hov ();
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+
+
+// ==== ==== PROMO: Banner End here ==== ====

@@ -1,0 +1,22 @@
+
+// ==== ==== PROMO: Bonus start here ==== ====
+
+#promo_page {
+    #bonus {
+        padding-top: 105px;
+        padding-bottom: 95px;
+        background: $pri-bg;
+        .bonus_text {
+            max-width: 975px;
+            margin: 0 auto;
+            h3 {
+                @include font-head1 ();
+            }
+            p {
+                @include font-dynamic ('Nunito', 200, 20px, #fff);
+                line-height: 30px;
+                padding-bottom: 30px;
+            }
+        }
+    }
+}

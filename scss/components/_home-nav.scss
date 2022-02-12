@@ -1,0 +1,94 @@
+
+// ==== ==== Home: Navbar Starts Here ==== ====
+
+.navbar {
+    background: transparent;
+    transition: .3s;
+    padding-top: 25px;
+    padding-bottom: 15px;
+    overflow-x: hidden;
+}
+
+.navbar-brand {
+    margin-left: 1rem;
+}
+
+.navbar-expand-lg {
+    .navbar-collapse {
+        margin-top: 40px;
+    }
+}
+
+.navbar-nav {
+    .nav-link {
+        @include font-nav ();
+        margin-left: 37px;
+        line-height: 48px;
+        transition: .3s;
+        &:hover {
+            @include font-nav-hov ();
+        }
+    }
+}
+
+.navbar-toggler {
+    i {
+        font-size: 25px;
+        color: $main-nav-fc;
+        line-height: 40px;
+        transition: all linear .3s;
+    }
+    .menubar {
+        height: 40px;
+        width: 50px;
+        border: 1px solid $main-nav-fc;
+        border-radius: 6px;
+    }
+    &:focus {
+        text-decoration: none;
+        outline: 0;
+        box-shadow: none;
+    }
+}
+
+.nav_btn {
+    margin-left: 82px;
+    a {
+        @include link-btn ();
+        &:hover {
+            @include link-btn-hov ();
+        }
+    }
+    .nav_btn_2 {
+        margin-left: 20px;
+    }
+}
+
+.ext_hd {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-bottom: 2px solid $main-nav-fc;
+    margin: 0;
+    transition: all linear .3s;
+}
+
+.cont_pd {
+    padding-left: 0;
+    padding-right: 0;
+    transition: all linear .3s;
+}
+
+.xsm_menu_bg {
+    background: #0c011b;
+}
+
+.xsm_btn_fcs {
+    color: $hov-nav-fc !important;
+}
+
+.xsm_btn_fcs_border {
+    border: 1px solid $hov-nav-fc !important;
+}
+
+
+// ==== ==== Home: Navbar Ends Here ==== ====

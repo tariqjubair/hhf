@@ -1,0 +1,154 @@
+
+// ==== ==== FAQ Part Start Here ==== ====
+
+#faq {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background: $pri-bg;
+}
+
+.faq_hd {
+    border-bottom: 2px solid #080007;
+    box-shadow: 0px 1px 0px 0px rgba(47,10,93,1);
+    position: relative;
+    h3 {
+        @include font-head1 ();
+        margin-bottom: 15px;
+    }
+    .light_bar {
+        @include light_bar ();
+    }
+}
+
+.faq_part {
+    padding-top: 30px;
+    .faq_item {
+        padding: 20px 30px;
+        border: 1px solid transparent;
+        transition: .5s;
+        .faq_qt {
+            justify-content: space-between;
+            h3 {
+                @include sub-head3 ();
+            }
+            button {
+                background: transparent;
+                border: none;
+                i {
+                    @include font-awe1();
+                    transition: .3s;
+                    &:hover {
+                        color: $faq-hov;
+                    }
+                }
+            }
+        }
+        .faq_ans {
+            padding-top: 10px;
+            display: none;
+            p {
+                @include font-para ();
+            }
+        }
+    }
+}
+
+.add_border {
+    border: 1px solid $faq-hov !important;
+}
+
+.add_arr_hov {
+    color: $faq-hov !important;
+}
+
+
+.notice_hd {
+    border-bottom: 2px solid #080007;
+    box-shadow: 0px 1px 0px 0px rgba(47,10,93,1);
+    position: relative;
+    h3 {
+        @include font-head1 ();
+        margin-bottom: 15px;
+    }
+    .light_bar {
+        @include light_bar ();
+    }
+}
+
+.notice_counter {
+    margin-top: 30px;
+    align-items: center;
+    justify-content: space-between;
+    .count_hd {
+        
+        h3 {
+            @include sub-head4 ();
+        }
+    }
+    .count_item {
+        border: 1px solid $faq-hov;
+        border-radius: 5px;
+        padding: 15px 0 11px 0;
+        width: 90px;
+        h3, h4 {
+            @include sub-head4 ();
+            color: #fdb125;
+            text-shadow: 2px 2px 4px #1E1104,
+            0 0 2px #1E1104,
+            0 0 4px #1E1104,
+            0 0 30px rgba(255, 57, 219, 0.267),
+            0 0 40px rgba(255, 57, 219, 0.137),
+            0 0 50px rgba(255, 57, 219, 0.061);
+        }
+        h3 {
+            padding-bottom: 10px;
+        }
+    }
+    
+}
+
+.result_main {
+    margin-top: 55px;
+    height: 290px;
+    overflow-y: scroll;
+    padding-right: 30px;
+    &::-webkit-scrollbar {
+        width: 8px;
+    }
+    &::-webkit-scrollbar-thumb {
+        background: $lnk_bg;
+        box-shadow: 0px 0px 3px 1px rgba(11,0,27,1);
+        border-radius: 30px;
+    }
+    &::-webkit-scrollbar-track {
+        background: transparent;
+        border: 3px solid transparent;
+        box-shadow: inset 0 0 4px #080007;
+    }
+    .result_item {
+        border-bottom: 2px solid #080007;
+        box-shadow: 0px 1px 0px 0px rgba(47,10,93,1);
+        justify-content: space-between;
+        margin-bottom: 20px;
+        .result_name {
+            flex-grow: 1;
+            width: 80px;
+            p {
+                @include font-para ();
+                padding-bottom: 15px;
+            }
+        }
+        .flag {
+            flex-grow: 2;
+        }
+        .win {
+            p {
+                @include font-para ();
+                padding-bottom: 15px;
+            }
+        }
+        
+    }
+}
+
+// ==== ==== FAQ Part End Here ==== ====

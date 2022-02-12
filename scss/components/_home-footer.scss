@@ -1,0 +1,19 @@
+
+// ==== ==== Footer Part start here ==== ====
+
+#footer {
+    padding-top: 20px;
+    background: $sec-bg;
+}
+
+.footer_text {
+    p {
+        @include font-para ();
+        line-height: 55px;
+    }
+}
+
+
+
+
+// ==== ==== Footer Part End here ==== ====

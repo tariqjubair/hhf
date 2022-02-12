@@ -1,0 +1,63 @@
+
+// ==== ==== About_US: Watch start here ==== ====
+
+#about_page {
+    #watch {
+        padding-top: 200px;
+        padding-bottom: 60px;
+        background: $sec-bg;
+        .watch_text {
+            padding-top: 75px;
+            p {
+                @include font-para ();
+                padding-bottom: 30px;
+                max-width: 675px;
+            }
+        }
+        .demo_btn {
+            margin-top: 20px;
+            gap: 30px;
+            .play_btn {
+                a {
+                    @include link-btn-main ();
+                    &:hover {
+                        @include link-btn-main-hov ();
+                    }
+                }
+            }
+            .watch_btn {
+                a {
+                    .bt_ext {
+                        align-items: center;
+                        gap: 15px;
+                        i {
+                            @include link-social();
+                            border-radius: 50%;
+                            transition: .3s;
+                            
+                        }
+                        p {
+                            @include font-para ();
+                            color: #944bff;
+                            transition: .3s;
+                        }
+                    }
+                    &:hover {
+                        i {
+                            @include link-social-hov();
+                        }
+                        p {
+                            color: #a60084;
+                            text-shadow: 
+                            0px 3px 0px 0px rgba(102,19,85,1),
+                            0 0 30px rgba(255, 57, 219, 0.356),
+                            0 0 40px rgba(255, 57, 219, 0.267);
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+// ==== ==== About_US: Watch End here ==== ====

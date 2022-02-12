@@ -1,0 +1,127 @@
+
+// ==== ==== Font Item Series ==== ====
+
+@mixin font-dynamic ($ff,$fw,$fs,$fc){
+    font-family: $ff;
+    font-weight: $fw;
+    font-size: $fs;
+    color: $fc;
+}
+
+@mixin font-nav (){
+    font-family: 'Nunito', sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    color: $main-nav-fc;
+}
+
+@mixin font-nav-hov (){
+    color: $hov-nav-fc;
+    text-shadow: 0 0 30px rgba(255, 57, 219, 0.52),
+    0 0 40px rgba(255, 57, 219, 0.363),
+    0 0 60px rgba(255, 57, 219, 0.308);
+}
+
+@mixin font-para (){
+    font-family: 'Nunito', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #fff;
+    line-height: 26px;
+}
+
+@mixin font-head1 (){
+    font-family: 'Anton', sans-serif;
+    font-weight: 400;
+    font-size: 48px;
+    letter-spacing: 2px;
+    padding-top: 5px;
+    padding-bottom: 20px;
+    display: inline-block;
+    margin-right: 5px;
+
+    background-color: #fff;
+    background-image: linear-gradient(#fcb100, #fcb100 42%, #d36c05, #db7209 -0%, #feb510 100%);
+
+    text-shadow: 
+    0px 2px rgba(255, 255, 0, 0.205),
+    0 0 1px #fcb00033,
+    0 0 55px rgba(255, 57, 219, 0.185),
+    0 0 58px rgba(255, 57, 219, 0.144),
+    0 0 60px rgba(255, 57, 219, 0.116),
+    0 0 65px rgba(255, 57, 219, 0.11),
+    0 0 70px rgba(255, 57, 219, 0.068);
+
+    filter: drop-shadow(0mm 3mm #11000f);
+    
+    background-size: 100%;
+    background-repeat: repeat;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+}
+
+@mixin font-head2 (){
+    font-family: 'Anton', sans-serif;
+    font-weight: 400;
+    font-size: 48px;
+    color: #fdb125;
+    letter-spacing: 2px;
+    padding-bottom: 10px;
+    text-shadow: 2px 2px 4px #1E1104,
+    0 0 2px #1E1104,
+    0 0 4px #1E1104,
+    0 0 8px #1E1104,
+    0 0 30px rgba(255, 57, 219, 0.267),
+    0 0 40px rgba(255, 57, 219, 0.137),
+    0 0 50px rgba(255, 57, 219, 0.061);
+}
+
+@mixin sub-head1 (){
+    font-family: 'Anton', sans-serif;
+    font-weight: 400;
+    font-size: 32px;
+    color: #fff;
+    text-shadow: 6px 6px 0px #5813b8;
+}
+
+@mixin sub-head2 (){
+    font-family: 'Nunito', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    color: #fff;
+    line-height: 40px;
+}
+
+@mixin sub-head3 (){
+    font-family: 'Nunito', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: #fff;
+    line-height: 40px;
+}
+
+@mixin sub-head4 (){
+    font-family: 'Nunito', sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    color: #fff;
+}
+
+@mixin font-awe1 (){
+    font-size: 40px;
+    color: #fff;
+    line-height: 40px;
+}
+
+@mixin font-crump (){
+    font-family: 'Anton', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    color: #fff;
+    padding-bottom: 70px;
+    text-shadow: 3px 3px 5px #290164;
+}
+
+

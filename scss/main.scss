@@ -1,0 +1,30 @@
+
+// ==== ==== Linking Mixins ==== ====
+
+@import "./mixin/font-items";
+@import "./mixin/btn-items";
+
+
+// ==== ==== Linking Variables ==== ====
+
+@import "./variables/color-items";
+
+
+// ==== ==== Linking Common CSS ==== ====
+
+@import "./common/common";
+
+
+// ==== ==== Linking Pages ==== ====
+
+@import "./pages/home";
+@import "./pages/about_us";
+@import "./pages/games";
+@import "./pages/member";
+@import "./pages/error";
+@import "./pages/signup";
+@import "./pages/login";
+@import "./pages/contact";
+@import "./pages/promo";
+
+

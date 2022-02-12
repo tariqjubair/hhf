@@ -1,0 +1,55 @@
+
+// ==== ==== Rel-Games Part Start Here ==== ====
+
+#rel_game {
+    padding-top: 175px;
+    padding-bottom: 100px;
+    background: $sec-bg;
+}
+
+.rel_head {
+    h3 {
+        @include font-head1 ();
+        margin-bottom: 42px;
+    }
+}
+
+.rel_item {
+    .rel_olay {
+        opacity: 0;
+        visibility: hidden;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        height: 50%;
+        background: rgba(21, 0, 53, 0.85);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        transition: .3s;
+        .rel_olay_text {
+            padding-top: 80px;
+            h4 {
+                @include font-dynamic ('Anton', 400, 24px, #fff);
+                padding-bottom: 50px;
+                letter-spacing: 1px;
+            }
+            a {
+                @include link-btn-main ();
+                &:hover {
+                    @include link-btn-main-hov ();
+                }
+            };
+        }
+    }
+    &:hover {
+        .rel_olay {
+            opacity: 1;
+            visibility: visible;
+            height: 100%;
+        }
+    }
+}
+
+// ==== ==== Rel-Games Part End Here ==== ====
