@@ -1,0 +1,2236 @@
+
+/* ==== ==== 1. Extra-Small Devices ==== ==== */
+/* ==== ==== (X-sm) Screen ==== ==== */
+
+@media(max-width: 575.98px){
+    
+/* === === X-sm Common Start === ==== */
+
+/* === === X-sm Header Start === ==== */
+
+.navbar-brand {
+    max-width: 180px;
+}
+
+.navbar-brand img {
+    width: 80%;
+}
+
+.navbar-nav {
+    text-align: center;
+    margin-top: 15px;
+}
+
+.navbar-nav .nav-item {
+    border-bottom: 1px solid #92b4df71;
+}
+
+.navbar-nav .nav-link {
+    margin-left: 0!important;
+    line-height: 18px;
+}
+
+.navbar-toggler i {
+    font-size: 20px;
+    line-height: 35px;
+}
+
+.navbar-toggler .menubar {
+    height: 35px;
+    width: 45px;
+}
+
+.navbar-expand-lg .navbar-collapse {
+    margin-top: 10px;
+}
+
+.nav_btn {
+    display: flex;
+    margin-left: 0;
+    justify-content: center;
+    gap: 10px 20px;
+}
+
+.nav_btn a {
+    padding: 8px 30px 8px 30px;
+    margin-bottom: 8px;
+}
+
+.nav_btn .nav_btn_2 {
+    margin-left: 0;
+}
+
+/* === === X-sm Banner Start === ==== */
+
+#banner {
+    padding-top: 135px;
+    padding-bottom: 60px;
+}
+
+.ban_lf img {
+    position: unset;
+    width: 100%;
+}
+
+.ban-rt {
+    padding-top: 20px;
+    text-align: center;
+}
+
+.ban-rt h4 {
+    position: unset;
+}
+
+.ban-rt h3 {
+    font-size: 150px;
+    margin-top: 15px;
+    margin-left: 0;
+}
+
+.ban-rt .ban_rt_text {
+    position: unset;
+    transform: unset;
+}
+
+.ban-rt .ban_rt_text p {
+    min-width: unset;
+    max-width: 450px;
+}
+
+/* === === X-sm Rel_Game Start === ==== */
+
+#rel_game {
+    padding-top: 65px;
+    padding-bottom: 60px;
+}
+
+.rel_head h3 {
+    margin-bottom: 0;
+}
+
+.rel_head {
+    padding-bottom: 40px;
+}
+
+.rel_item .rel_olay .rel_olay_text {
+    padding-top: 35px;
+}
+
+.rel_item {
+    margin-bottom: 15px;
+}
+
+/* === === X-sm Free_Spin Start === ==== */
+
+#free_spin {
+    padding-top: 65px;
+    padding-bottom: 60px;
+}
+
+.spin_photo img {
+    width: 100%;
+}
+
+.spin_text h3 {
+    margin-top: 45px;
+    margin-bottom: 25px;
+}
+
+.spin_text p {
+    padding: 0 20px 30px 20px;
+}
+
+/* === === X-sm Price Start === ==== */
+
+#price {
+    padding-top: 65px;
+    padding-bottom: 25px;
+}
+
+.price_head h3 {
+    margin-bottom: 0;
+}
+
+.price_head {
+    padding-bottom: 20px;
+}
+
+.price_div .price_item {
+    margin-bottom: 75px;
+    position: unset;
+    margin-top: 15px;
+}
+
+.price_div .price_item a {
+    width: 190px;
+}
+
+/* === === X-SM FAQ Start === ==== */
+
+#faq {
+    padding-top: 65px;
+    padding-bottom: 60px;
+}
+
+#home_page #faq .faq_hd .light_bar {
+    bottom: -12px;
+    animation: 3s roam_sm linear .1s infinite alternate;
+}
+
+#home_page #faq .notice_hd .light_bar {
+    bottom: -12px;
+    animation: 3s roam_sm linear .1s infinite alternate;
+}
+
+.faq_part {
+    padding-bottom: 30px;
+}
+
+.faq_hd h3 {
+    margin-bottom: 0;
+}
+
+.faq_hd {
+    padding-bottom: 15px;
+}
+
+.faq_part .faq_item .faq_qt h3 {
+    line-height: 30px;
+    padding-right: 20px;
+}
+
+.notice_hd h3 {
+    margin-bottom: 0;
+}
+
+.notice_hd {
+    padding-bottom: 15px;
+    margin-top: 35px;
+}
+
+.notice_counter {
+    flex-wrap: wrap;
+}
+
+.count_hd {
+    width: 100%;
+    padding-bottom: 30px;
+}
+
+.notice_counter {
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.notice_counter .count_item {
+    flex-basis: 90px;
+}
+
+.result_main .result_item .result_name {
+    width: 140px;
+}
+
+/* === === X-SM Subscribe Start === ==== */
+
+#subscribe {
+    padding-top: 65px;
+    padding-bottom: 50px;
+}
+
+.subs_form {
+    margin-right: 0;
+    margin-bottom: 30px;
+}
+
+.subs_hd h3 {
+    padding-bottom: 10px;
+}
+
+.subs_pay a {
+    margin-bottom: 10px;
+}
+
+/* === === X-SM About Start === ==== */
+
+#about {
+    padding-top: 65px;
+    padding-bottom: 60px;
+}
+
+#about .light_bar {
+    bottom: -10px;
+    animation: 2s roam_footer_sm linear .1s infinite alternate;
+}
+
+.about_item .about_social {
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+.about_item p {
+    max-width: unset;
+    padding: 0 20px;
+}
+
+.about_item .about_link {
+    margin-bottom: 30px;
+    justify-content: space-evenly;
+}
+
+.security_part .about_sec .sec_link {
+    margin-right: 0;
+}
+
+.about_sec .sec_link a {
+    line-height: 25px;
+    
+}
+
+.security_part .about_sec {
+    justify-content: center;
+}
+
+.security_part .about_sec .sec_link a {
+    line-height: 25px;
+    
+}
+
+/* === === X-sm Footer Start === ==== */
+
+.footer_text p {
+    line-height: 25px;
+    padding: 20px 40px;
+}
+
+/* ================== ABOUT_PAGE X-sm =================== */
+/* oooooooooooooooooooooooooooooooooooooooooooooooooooooo */
+
+/* === === X-sm About_Us: Banner === ==== */
+
+#about_page #banner {
+    padding-top: 190px;
+    padding-bottom: 60px;
+}
+
+/* === === X-sm About_Us: watch === ==== */
+
+#about_page #watch {
+    padding-top: 65px;
+    padding-bottom: 60px;
+}
+
+#about_page .watch_photo img {
+    width: 100%;
+}
+
+#about_page #watch .watch_text {
+    padding-top: 40px;
+}
+
+#about_page .demo_btn {
+    justify-content: center;
+}
+
+#about_page #watch .demo_btn .play_btn a {
+    font-size: 18px;
+    padding: 12px 20px 12px 20px;
+}
+
+/* === === X-sm About_Us: Rel_game === ==== */
+
+#about_page #rel_game {
+    padding-top: 65px;
+    padding-bottom: 60px;
+}
+
+/* ================== GAMES_page X-sm =================== */
+/* oooooooooooooooooooooooooooooooooooooooooooooooooooooo */
+
+/* === === X-sm Games: Banner === ==== */
+
+#games_page #banner {
+    padding-top: 190px;
+    padding-bottom: 60px;
+}
+
+/* === === X-sm Games: Rel_games === ==== */
+
+#games_page #rel_game {
+    padding-top: 65px;
+    padding-bottom: 60px;
+}
+
+/* ================== Member_page X-sm =================== */
+/* oooooooooooooooooooooooooooooooooooooooooooooooooooooo */
+
+/* === === X-sm Member: Banner === ==== */
+
+#member_page #banner {
+    padding-top: 190px;
+    padding-bottom: 60px;
+}
+
+.page_header h2 {
+    line-height: 70px;
+}
+
+/* === === X-sm Member: Price === ==== */
+
+#member_page #price {
+    padding-top: 50px;
+    padding-bottom: 0px;
+}
+
+#member_page #price2 {
+    padding-top: 0;
+    padding-bottom: 20px;
+}
+
+/* === === X-sm Member: About === ==== */
+
+#member_page #about .light_bar {
+    bottom: -11px;
+}
+
+/* ================== Error_page X-sm =================== */
+/* oooooooooooooooooooooooooooooooooooooooooooooooooooooo */
+
+/* === === X-sm Error: Banner === ==== */
+
+#error_page #banner {
+    padding-top: 190px;
+    padding-bottom: 60px;
+}
+
+#error_page #banner .ban_photo img {
+    width: 100%;
+}
+
+/* ================== SIGNUP_PAGE X-sm =================== */
+/* oooooooooooooooooooooooooooooooooooooooooooooooooooooo */
+
+/* === === X-sm SIGNup: Banner === ==== */
+
+#signup_page #banner {
+    padding-top: 190px;
+    padding-bottom: 60px;
+}
+
+/* === === X-sm SIGNup: signup === ==== */
+
+#signup_page #signup {
+    padding-top: 40px;
+    padding-bottom: 60px;
+    background: #0b001b;
+}
+
+#signup_page #signup .signup_text .sign_top p::before {
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+#signup_page #signup .signup_text .sign_btm {
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+/* ================== Login_PAGE X-sm =================== */
+/* oooooooooooooooooooooooooooooooooooooooooooooooooooooo */
+
+/* === === X-sm Login: Banner === ==== */
+
+#login_page #banner {
+    padding-top: 190px;
+    padding-bottom: 60px;
+}
+
+/* === === X-sm Login: signup === ==== */
+
+#login_page #signup {
+    padding-top: 40px;
+    padding-bottom: 60px;
+    background: #0b001b;
+}
+
+#login_page #signup .signup_text .sign_top p::before {
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+#login_page #signup .signup_text .sign_btm {
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+/* === === X-sm Login: About === ==== */
+
+#login_page #about .light_bar {
+    bottom: -11px;
+}
+
+/* ================== CONTACT_PAGE X-sm =================== */
+/* oooooooooooooooooooooooooooooooooooooooooooooooooooooo */
+
+/* === === X-sm CONTACT: Banner === ==== */
+
+#contact_page #banner {
+    padding-top: 190px;
+    padding-bottom: 60px;
+}
+
+/* === === X-sm CONTACT: About === ==== */
+
+#contact_page #about .light_bar {
+    bottom: -10px;
+}
+
+/* === === X-sm CONTACT: contact === ==== */
+
+#contact_page #contact .cont_bg {
+    padding-top: 65px;
+    padding-bottom: 60px;
+}
+
+#contact .contact_olay .cont_bg .cont_part {
+    text-align: center;
+}
+
+#contact .contact_olay .cont_bg .cont_part .cont_item {
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+#contact .contact_olay .cont_bg .cont_part .cont_item .cont_text {
+    text-align: center;
+}
+
+#contact .contact_olay .cont_bg .cont_part .cont_item .cont_text p {
+    max-width: 185px;
+}
+
+/* ================== PROMO_PAGE X-sm =================== */
+/* oooooooooooooooooooooooooooooooooooooooooooooooooooooo */
+
+/* === === X-sm PROMO: Banner === ==== */
+
+#promo_page #banner .promo_bg {
+    padding-top: 65px;
+    padding-bottom: 65px;
+    background: none;
+}
+
+#promo_page #banner .promo_bg .pro_ban_item {
+    position: unset;
+}
+
+#promo_page #banner .promo_bg .pro_ban_item .pro_ban_rt h5 {
+    font-size: 130px;
+}
+
+#promo_page #banner .promo_bg .promo_text h4 {
+    font-size: 50px;
+}
+
+#promo_page #banner .promo_bg .pro_ban_item .pro_ban_rt img {
+    position: unset;
+    transform: none;
+    width: 90%;
+}
+
+#promo_page #banner .promo_bg .pro_ban_item .pro_ban_rt h3 {
+    font-size: 40px;
+}
+
+#promo_page #banner .promo_bg .pro_ban_item .pro_ban_rt h4 {
+    font-size: 70px;
+}
+
+#promo_page #banner .promo_bg .pro_ban_item .pro_ban_rt a {
+    width: auto;
+}
+
+/* === === X-sm PROMO: Promo === ==== */
+
+#promo_page #promo {
+    padding-top: 60px;
+    padding-bottom: 55px;
+    
+}
+
+#promo_page #promo .promo_lf img {
+    position: unset;
+    width: 100%;
+}
+
+#promo_page #promo .promo_rt h3 {
+    line-height: 55px;
+    padding-top: 25px;
+    padding-bottom: 35px;
+}
+
+/* === === X-sm PROMO: Bonus === ==== */
+
+#promo_page #bonus {
+    padding-top: 60px;
+    padding-bottom: 55px;
+}
+
+#promo_page #bonus .bonus_text {
+    max-width: 430px;
+}
+
+#promo_page #bonus .bonus_text h3 {
+    line-height: 55px;
+    padding-bottom: 35px;
+}
+
+/* === === X-sm PROMO: About === ==== */
+
+#promo_page #about .light_bar {
+    bottom: -10px;
+}
+
+/* ==== X-sm END ==== */
+
+}
+
+
+
+/* ==== ==== 2. Small Devices ==== ==== */
+/* ==== ==== (sm) Screen ==== ==== */
+
+@media(min-width: 576px) and (max-width: 767.98px){
+    
+/* === === SM Common Start === ==== */
+/* === === SM Header Start === ==== */
+
+.navbar-nav {
+    flex-direction: row;
+    text-align: center;
+    flex-wrap: wrap;
+    margin-top: 15px;
+}
+
+.navbar-nav .nav-item {
+    flex-basis: 50%;
+    flex-grow: 2;
+    border-bottom: 1px solid #92b4df71;
+}
+
+.navbar-nav .nav-link {
+    margin-left: 0!important;
+    line-height: 18px;
+}
+
+.navbar-expand-lg .navbar-collapse {
+    margin-top: 10px;
+}
+
+.nav_btn {
+    display: flex;
+    margin-left: 0;
+    justify-content: center;
+    gap: 0 40px;
+    padding: 5px 0;
+}
+
+.nav_btn a {
+    padding: 8px 30px 8px 30px;
+    margin-bottom: 8px;
+}
+
+.nav_btn .nav_btn_2 {
+    margin-left: 0;
+}
+
+/* === === SM Banner Start === ==== */
+
+#banner {
+    padding-top: 160px;
+    padding-bottom: 50px;
+}
+
+.ban_lf img {
+    position: unset;
+    width: 100%;
+}
+
+.ban-rt {
+    padding-top: 20px;
+}
+
+.ban-rt h4 {
+    top: 50px;
+    left: 15px;
+}
+
+.ban-rt h3 {
+    margin-left: 0;
+}
+
+.ban-rt .ban_rt_text {
+    position: unset;
+    transform: unset;
+    margin-top: 25px;
+}
+
+.ban-rt .ban_rt_text p {
+    min-width: unset;
+    max-width: 450px;
+}
+
+.link_item_sm p {
+    font-size: 15px;
+}
+
+/* === === SM Rel_Game Start === ==== */
+
+#rel_game {
+    padding-top: 70px;
+    padding-bottom: 65px;
+}
+
+.rel_head h3 {
+    padding-bottom: 25px;
+}
+
+.rel_item {
+    margin-bottom: 25px;
+}
+
+.rel_item .rel_olay .rel_olay_text {
+    padding-top: 15px;
+}
+
+/* === === SM Free_Spin Start === ==== */
+
+#free_spin {
+    padding-top: 70px;
+    padding-bottom: 65px;
+}
+
+/* === === SM Price Start === ==== */
+
+#price {
+    padding-top: 70px;
+    padding-bottom: 40px;
+}
+
+.price_head h3 {
+    margin-bottom: 0;
+}
+
+.price_head {
+    padding-bottom: 25px;
+}
+
+.price_div .price_item {
+    margin-bottom: 65px;
+    position: unset;
+    margin-top: 15px;
+}
+
+.price_div .price_item a {
+    width: 180px;
+}
+
+/* === === SM FAQ Start === ==== */
+
+#faq {
+    padding-top: 70px;
+    padding-bottom: 65px;
+}
+
+#home_page #faq .faq_hd .light_bar {
+    bottom: -12px;
+    animation: 3s roam_sm linear .1s infinite alternate;
+}
+
+#home_page #faq .notice_hd .light_bar {
+    bottom: -13px;
+    animation: 3s roam_sm linear .1s infinite alternate;
+}
+
+.faq_part {
+    padding-bottom: 30px;
+}
+
+.faq_hd h3 {
+    margin-bottom: 0;
+}
+
+.faq_hd {
+    padding-bottom: 15px;
+}
+
+.faq_part .faq_item .faq_qt h3 {
+    line-height: 30px;
+    padding-right: 20px;
+}
+
+.notice_hd {
+    margin-top: 30px;
+}
+
+/* === === SM Subscribe Start === ==== */
+
+#subscribe {
+    padding-top: 70px;
+    padding-bottom: 65px;
+}
+
+.subs_form {
+    margin-right: 0;
+    margin-bottom: 30px;
+}
+
+.subs_hd h3 {
+    padding-bottom: 10px;
+}
+
+/* === === SM About Start === ==== */
+
+#about {
+    padding-top: 70px;
+    padding-bottom: 65px;
+}
+
+#about .light_bar {
+    bottom: -10px;
+    animation: 3s roam_footer_sm linear .1s infinite alternate;
+}
+
+.about_item .about_social {
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+.about_item p {
+    max-width: unset;
+    padding: 0 20px;
+}
+
+.about_item .about_link {
+    margin-bottom: 30px;
+    justify-content: space-evenly;
+}
+
+.security_part .about_sec .sec_link {
+    margin-right: 0;
+}
+
+.security_part .about_sec {
+    justify-content: center;
+    margin-bottom: 0;
+    width: 50%;
+}
+
+.security_part {
+    display: flex;
+    gap: 20px;
+}
+
+.security_part .about_sec .sec_link a {
+    line-height: 25px;
+    
+}
+
+/* ================== ABOUT_PAGE SM =================== */
+/* oooooooooooooooooooooooooooooooooooooooooooooooooooooo */
+
+/* === === SM About_Us: Banner === ==== */
+
+#about_page #banner {
+    padding-top: 200px;
+    padding-bottom: 65px;
+}
+
+/* === === SM About_Us: watch === ==== */
+
+#about_page #watch {
+    padding-top: 70px;
+    padding-bottom: 65px;
+}
+
+#about_page .watch_photo img {
+    width: 100%;
+}
+
+#about_page #watch .watch_text {
+    padding-top: 40px;
+}
+
+#about_page .demo_btn {
+    justify-content: center;
+}
+
+#about_page #watch .demo_btn .play_btn a {
+    font-size: 18px;
+    padding: 12px 20px 12px 20px;
+}
+
+/* === === SM About_Us: Rel_game === ==== */
+
+#about_page #rel_game {
+    padding-top: 70px;
+    padding-bottom: 65px;
+}
+
+/* === === SM About_Us: About === ==== */
+
+#about_page #about .light_bar {
+    bottom: -10px;
+}
+
+/* ================== GAMES_page SM =================== */
+/* oooooooooooooooooooooooooooooooooooooooooooooooooooooo */
+
+/* === === SM Games: Banner === ==== */
+
+#games_page #banner {
+    padding-top: 190px;
+    padding-bottom: 65px;
+}
+
+/* === === SM Games: Rel_games === ==== */
+
+#games_page #rel_game {
+    padding-top: 70px;
+    padding-bottom: 65px;
+}
+
+/* ================== Member_page SM =================== */
+/* oooooooooooooooooooooooooooooooooooooooooooooooooooooo */
+
+/* === === SM Member: Banner === ==== */
+
+#member_page #banner {
+    padding-top: 190px;
+    padding-bottom: 65px;
+}
+
+/* === === SM Member: About === ==== */
+
+#member_page #about .light_bar {
+    bottom: -10px;
+}
+
+/* === === X-sm Member: Price === ==== */
+
+#member_page #price {
+    padding-top: 55px;
+    padding-bottom: 0px;
+}
+
+#member_page #price2 {
+    padding-top: 0;
+    padding-bottom: 25px;
+}
+
+/* ================== Error_page SM =================== */
+/* oooooooooooooooooooooooooooooooooooooooooooooooooooooo */
+
+/* === === SM Error: Banner === ==== */
+
+#error_page #banner {
+    padding-top: 190px;
+    padding-bottom: 65px;
+}
+
+#error_page #banner .ban_photo img {
+    width: 100%;
+}
+
+/* === === SM Error: About === ==== */
+
+#error_page #about .light_bar {
+    bottom: -10px;
+}
+
+/* ================== SIGNUP_PAGE SM =================== */
+/* oooooooooooooooooooooooooooooooooooooooooooooooooooooo */
+
+/* === === SM SIGNup: Banner === ==== */
+
+#signup_page #banner {
+    padding-top: 190px;
+    padding-bottom: 65px;
+}
+
+/* === === SM SIGNup: signup === ==== */
+
+#signup_page #signup {
+    padding-top: 25px;
+    padding-bottom: 65px;
+    background: #0b001b;
+}
+
+#signup_page #signup .signup_text .sign_top p::before {
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+#signup_page #signup .signup_text .sign_btm {
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+/* === === SM SIGNup: About === ==== */
+
+#signup_page #about .light_bar {
+    bottom: -10px;
+}
+
+/* ================== LOGIN_PAGE SM =================== */
+/* oooooooooooooooooooooooooooooooooooooooooooooooooooooo */
+
+/* === === SM LOGIN: Banner === ==== */
+
+#login_page #banner {
+    padding-top: 190px;
+    padding-bottom: 65px;
+}
+
+/* === === SM LOGIN: signup === ==== */
+
+#login_page #signup {
+    padding-top: 25px;
+    padding-bottom: 65px;
+    background: #0b001b;
+}
+
+#login_page #signup .signup_text .sign_top p::before {
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+#login_page #signup .signup_text .sign_btm {
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+/* === === SM Login: About === ==== */
+
+#login_page #about .light_bar {
+    bottom: -10px;
+}
+
+/* ================== CONTACT_PAGE SM =================== */
+/* oooooooooooooooooooooooooooooooooooooooooooooooooooooo */
+
+/* === === SM CONTACT: Banner === ==== */
+
+#contact_page #banner {
+    padding-top: 190px;
+    padding-bottom: 65px;
+}
+
+/* === === SM CONTACT: contact === ==== */
+
+#contact_page #contact .cont_bg {
+    padding-top: 70px;
+    padding-bottom: 65px;
+}
+
+#contact .contact_olay .cont_bg .cont_part {
+    text-align: center;
+}
+
+#contact .contact_olay .cont_bg .cont_part .cont_item {
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+#contact .contact_olay .cont_bg .cont_part .cont_item .cont_text {
+    text-align: start;
+}
+
+#contact .contact_olay .cont_bg .cont_part .cont_item .cont_text p {
+    max-width: none;
+    min-width: 225px;
+}
+
+/* === === X-sm CONTACT: About === ==== */
+
+#contact_page #about .light_bar {
+    bottom: -10px;
+}
+
+/* ================== PROMO_PAGE SM =================== */
+/* oooooooooooooooooooooooooooooooooooooooooooooooooooooo */
+
+/* === === SM PROMO: Banner === ==== */
+
+#promo_page #banner .promo_bg {
+    padding-top: 70px;
+    padding-bottom: 70px;
+    background: none;
+}
+
+#promo_page #banner .promo_bg .pro_ban_item {
+    position: unset;
+}
+
+#promo_page #banner .promo_bg .promo_text h4 {
+    font-size: 75px;
+}
+
+#promo_page #banner .promo_bg .promo_text {
+    position: absolute;
+    top: 180px;
+    left: 195px;
+}
+
+#promo_page #banner .promo_bg .pro_ban_item .pro_ban_rt img {
+    position: unset;
+    transform: none;
+    width: 90%;
+}
+
+/* === === SM PROMO: Promo === ==== */
+
+#promo_page #promo {
+    padding-top: 65px;
+    padding-bottom: 60px;
+    
+}
+
+#promo_page #promo .promo_lf img {
+    position: unset;
+    width: 100%;
+}
+
+#promo_page #promo .promo_rt h3 {
+    line-height: 55px;
+    padding-top: 25px;
+    padding-bottom: 50px;
+}
+
+/* === === SM PROMO: Bonus === ==== */
+
+#promo_page #bonus {
+    padding-top: 65px;
+    padding-bottom: 60px;
+}
+
+#promo_page #bonus .bonus_text {
+    max-width: 550px;
+}
+
+#promo_page #bonus .bonus_text h3 {
+    line-height: 55px;
+    padding-bottom: 50px;
+}
+
+/* === === SM PROMO: About === ==== */
+
+#promo_page #about .light_bar {
+    bottom: -10px;
+}
+    
+/* ==== SM END ==== */
+    
+}
+
+
+
+/* ==== ==== 3. Medium Devices ==== ==== */
+/* ==== ==== (md) Screen ==== ==== */
+
+@media(min-width: 768px) and (max-width: 991.98px){
+
+/* === === MD Common Start === ==== *
+/* === === MD Header Start === ==== */
+
+.navbar-nav {
+    flex-direction: row;
+    text-align: center;
+    flex-wrap: wrap;
+    margin-top: 15px;
+}
+
+.navbar-nav .nav-item {
+    width: 33%;
+    border-bottom: 1px solid #92b4df71;
+}
+
+.navbar-nav .nav-link {
+    margin-left: 0!important;
+    line-height: 18px;
+}
+
+.navbar-expand-lg .navbar-collapse {
+    margin-top: 15px;
+}
+
+.nav_btn {
+    display: flex;
+    margin-left: 0;
+    justify-content: center;
+    gap: 0 40px;
+    padding: 10px 0;
+}
+
+.nav_btn a {
+    padding: 8px 30px 8px 30px;
+    margin-bottom: 8px;
+}
+
+.nav_btn .nav_btn_2 {
+    margin-left: 0;
+}
+
+/* === === MD Banner Start === ==== */
+
+#banner {
+    padding-top: 149px;
+    padding-bottom: 70px;
+}
+
+.ban_lf img {
+    position: unset;
+    width: 105%;
+    padding-top: 25px;
+}
+
+.ban-rt h4 {
+    top: 5px;
+    left: 55px;
+}
+
+.ban-rt h3 {
+    font-size: 150px;
+    margin-top: 30px;
+}
+
+.ban-rt .ban_rt_text {
+    position: unset;
+    transform: unset;
+}
+
+.ban-rt .ban_rt_text p {
+    min-width: 340px;
+    font-size: 15px;
+    line-height: 20px;
+}
+
+/* === === MD Rel_Game Start === ==== */
+
+#rel_game {
+    padding-top: 75px;
+    padding-bottom: 70px;
+}
+
+.rel_head h3 {
+    padding-bottom: 25px;
+}
+
+.rel_item .rel_olay .rel_olay_text {
+    padding-top: 15px;
+}
+
+/* === === MD Free_Spin Start === ==== */
+
+#free_spin {
+    padding-top: 75px;
+    padding-bottom: 70px;
+}
+
+.spin_photo img {
+    width: 100%;
+    padding-top: 25px;
+}
+
+.spin_text h3 {
+    margin-bottom: 25px;
+}
+
+.spin_text p {
+    font-size: 15px;
+    line-height: 22px;
+    padding-bottom: 20px;
+}
+
+/* === === MD Price Start === ==== */
+
+#price {
+    padding-top: 75px;
+    padding-bottom: 600px;
+}
+
+.price_head h3 {
+    margin-bottom: 0;
+}
+
+.price_head {
+    padding-bottom: 40px;
+}
+
+.price_div .price_item a {
+    width: 180px;
+}
+
+/* === === MD FAQ Start === ==== */
+
+#faq {
+    padding-top: 75px;
+    padding-bottom: 70px;
+}
+
+#home_page #faq .faq_hd .light_bar {
+    bottom: -12px;
+}
+
+.notice_hd .light_bar {
+    bottom: -13px;
+}
+
+.faq_part {
+    padding-bottom: 70px;
+}
+
+/* === === MD Subscribe Start === ==== */
+
+#subscribe {
+    padding-top: 75px;
+    padding-bottom: 70px;
+}
+
+.subs_form {
+    margin-right: 0;
+    margin-bottom: 30px;
+}
+
+.subs_hd h3 {
+    padding-bottom: 10px;
+}
+
+/* ==== ==== MD About Start === ==== */
+
+#about {
+    padding-top: 75px;
+    padding-bottom: 70px;
+}
+
+#about .light_bar {
+    animation: 3s roam_footer_lg linear .1s infinite alternate;
+}
+
+.about_item .about_social {
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+.about_item p {
+    max-width: unset;
+    padding: 0 20px;
+}
+
+.about_item .about_link {
+    margin-bottom: 30px;
+    justify-content: space-evenly;
+    gap: 35px;
+}
+
+.security_part .about_sec .sec_link {
+    margin-right: 0;
+}
+
+.security_part .about_sec {
+    justify-content: center;
+    margin-bottom: 0;
+    width: 50%;
+}
+
+.security_part {
+    display: flex;
+    gap: 20px;
+}
+
+.security_part .about_sec .sec_link a {
+    line-height: 25px;
+    
+}
+
+/* ================== ABOUT_PAGE MD =================== */
+/* oooooooooooooooooooooooooooooooooooooooooooooooooooooo */
+
+/* === === MD About_Us: Banner === ==== */
+
+#about_page #banner {
+    padding-top: 200px;
+    padding-bottom: 70px;
+}
+
+/* === === MD About_Us: watch === ==== */
+
+#about_page #watch {
+    padding-top: 75px;
+    padding-bottom: 70px;
+}
+
+#about_page .watch_photo img {
+    width: 100%;
+}
+
+#about_page #watch .watch_text {
+    padding-top: 0;
+}
+
+#about_page .demo_btn {
+    justify-content: center;
+}
+
+/* === === MD About_Us: Rel_game === ==== */
+
+#about_page #rel_game {
+    padding-top: 75px;
+    padding-bottom: 70px;
+}
+
+/* === === MD About_Us: About === ==== */
+
+#about_page #about .light_bar {
+    bottom: -10px;
+}
+
+/* ================== GAMES_page MD =================== */
+/* oooooooooooooooooooooooooooooooooooooooooooooooooooooo */
+
+/* === === MD Games: Banner === ==== */
+
+#games_page #banner {
+    padding-top: 190px;
+    padding-bottom: 75px;
+}
+
+/* === === MD Games: Rel_games === ==== */
+
+#games_page #rel_game {
+    padding-top: 75px;
+    padding-bottom: 70px;
+}
+
+/* ================== Member_page MD =================== */
+/* oooooooooooooooooooooooooooooooooooooooooooooooooooooo */
+
+/* === === MD Member: Banner === ==== */
+
+#member_page #banner {
+    padding-top: 190px;
+    padding-bottom: 70px;
+}
+
+/* === === X-sm Member: Price === ==== */
+
+#member_page #price {
+    padding-top: 80px;
+    padding-bottom: 500px;
+}
+
+#member_page #price2 {
+    padding-bottom: 600px;
+}
+
+/* === === X-sm Member: About === ==== */
+
+#member_page #about .light_bar {
+    bottom: -10px;
+}
+
+/* ================== Error_page MD =================== */
+/* oooooooooooooooooooooooooooooooooooooooooooooooooooooo */
+
+/* === === MD Error: Banner === ==== */
+
+#error_page #banner {
+    padding-top: 190px;
+    padding-bottom: 70px;
+}
+
+#error_page #banner .ban_photo img {
+    width: 100%;
+}
+
+/* ================== SIGNUP_PAGE MD =================== */
+/* oooooooooooooooooooooooooooooooooooooooooooooooooooooo */
+
+/* === === MD SIGNup: Banner === ==== */
+
+#signup_page #banner {
+    padding-top: 190px;
+    padding-bottom: 75px;
+}
+
+/* === === MD SIGNup: signup === ==== */
+
+#signup_page #signup {
+    padding-top: 20px;
+    padding-bottom: 75px;
+    background: #0b001b;
+}
+
+#signup_page #signup .signup_text .sign_top p::before {
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+/* ================== LOGIN_PAGE MD =================== */
+/* oooooooooooooooooooooooooooooooooooooooooooooooooooooo */
+
+/* === === MD LOGIN: Banner === ==== */
+
+#login_page #banner {
+    padding-top: 190px;
+    padding-bottom: 75px;
+}
+
+/* === === MD LOGIN: signup === ==== */
+
+#login_page #signup {
+    padding-top: 20px;
+    padding-bottom: 75px;
+    background: #0b001b;
+}
+
+#login_page #signup .signup_text .sign_top p::before {
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+/* === === MD Login: About === ==== */
+
+#login_page #about .light_bar {
+    bottom: -10px;
+}
+
+/* ================== CONTACT_PAGE MD =================== */
+/* oooooooooooooooooooooooooooooooooooooooooooooooooooooo */
+
+/* === === MD CONTACT: Banner === ==== */
+
+#contact_page #banner {
+    padding-top: 190px;
+    padding-bottom: 70px;
+}
+
+/* === === MD CONTACT: contact === ==== */
+
+#contact_page #contact .cont_bg {
+    padding-top: 75px;
+    padding-bottom: 65px;
+}
+
+#contact .contact_olay .cont_bg .cont_part {
+    text-align: center;
+}
+
+#contact .contact_olay .cont_bg .cont_part .cont_item {
+    margin-bottom: 30px;
+    gap: 20px;
+}
+
+#contact .contact_olay .cont_bg .cont_part .cont_item .cont_text {
+    text-align: start;
+}
+
+#contact .contact_olay .cont_bg .cont_part .cont_item .cont_text p {
+    max-width: none;
+    min-width: 220px;
+}
+
+/* ================== PROMO_PAGE MD =================== */
+/* oooooooooooooooooooooooooooooooooooooooooooooooooooooo */
+
+/* === === MD PROMO: Banner === ==== */
+
+#promo_page #banner {
+    padding-top: 135px;
+}
+
+#promo_page #banner .promo_bg {
+    padding-top: 75px;
+    padding-bottom: 75px;
+}
+
+#promo_page #banner .promo_bg .pro_ban_item {
+    position: unset;
+}
+
+#promo_page #banner .promo_bg .pro_ban_item .pro_ban_rt img {
+    position: unset;
+    transform: none;
+    width: 90%;
+}
+
+#promo_page #banner .promo_bg .pro_ban_item .pro_ban_rt h5 {
+    font-size: 100px;
+}
+
+#promo_page #banner .promo_bg .promo_text h4 {
+    font-size: 60px;
+}
+
+#promo_page #banner .promo_bg .promo_text {
+    top: 105px;
+    left: 173px;
+}
+
+#promo_page #banner .promo_bg .pro_ban_item .pro_ban_rt h3 {
+    font-size: 35px;
+}
+
+#promo_page #banner .promo_bg .pro_ban_item .pro_ban_rt h4 {
+    font-size: 55px;
+}
+
+#promo_page #banner .promo_bg .pro_ban_item .pro_ban_rt a {
+    width: auto;
+}
+
+/* === === MD PROMO: Promo === ==== */
+
+#promo_page #promo {
+    padding-top: 70px;
+    padding-bottom: 65px;
+    
+}
+
+#promo_page #promo .promo_lf img {
+    position: unset;
+    width: 100%;
+}
+
+#promo_page #promo .promo_rt h3 {
+    padding-top: 25px;
+    padding-bottom: 50px;
+}
+
+/* === === MD PROMO: Bonus === ==== */
+
+#promo_page #bonus {
+    padding-top: 70px;
+    padding-bottom: 65px;
+}
+
+#promo_page #bonus .bonus_text h3 {
+    line-height: 55px;
+    padding-bottom: 50px;
+}
+
+/* === === MD PROMO: ABOUT === ==== */
+
+#promo_page #about .light_bar {
+    bottom: -10px;
+}
+
+/* ==== MD END ==== */
+    
+}
+
+
+
+/* ==== ==== 4. Large Devices ==== ==== */
+/* ==== ==== (lg) Screen ==== ==== */
+
+@media(min-width: 992px) and (max-width: 1199.98px){
+    
+/* === === LG Common Start === ==== */
+/* === === LG Header Start === ==== */
+
+.navbar-nav .nav-link {
+    margin-left: 8px;
+}
+
+.nav_btn {
+    margin-left: 55px;
+}
+
+.nav_btn a {
+    font-size: 18px;
+    padding: 12px 20px 12px 20px;
+}
+
+.nav_btn .nav_btn_2 {
+    margin-left: 15px;
+}
+
+/* === === LG Banner Start === ==== */
+
+#banner {
+    padding-top: 180px;
+    padding-bottom: 220px;
+}
+
+.ban_lf img {
+    top: -20px;
+    left: -5px;
+    width: 150%;
+}
+
+.ban-rt h4 {
+    top: 20px;
+    left: 55px;
+}
+
+.ban-rt h3 {
+    font-size: 210px;
+    margin-top: 50px;
+}
+
+.ban-rt .ban_rt_text {
+    position: unset;
+    transform: unset;
+}
+
+.ban-rt .ban_rt_text p {
+    min-width: 360px;
+    padding: 15px;
+}
+
+.link_pos {
+    top: 585px;
+}
+
+/* === === LG Rel_Game Start === ==== */
+
+#rel_game {
+    padding-bottom: 85px;
+}
+
+.spin_photo img {
+    width: 100%;
+}
+
+/* === === LG Rel_Game Start === ==== */
+
+.price_div .price_item {
+    margin-bottom: 0;
+}
+
+.price_div .price_item a {
+    width: 180px;
+}
+
+/* === === LG Free_Spin Start === ==== */
+
+.spin_text h3 {
+    margin-bottom: 25px;
+}
+
+/* === === LG Price Start === ==== */
+
+.price_head h3 {
+    margin-bottom: 0;
+}
+
+.price_head {
+    padding-bottom: 45px;
+}
+
+/* === === LG FAQ Start === ==== */
+
+.faq_hd h3 {
+    margin-bottom: 0;
+}
+
+.faq_hd {
+    padding-left: 10px;
+    padding-bottom: 15px;
+}
+
+#home_page #faq .faq_hd .light_bar {
+    bottom: -13px;
+    animation: 2s roam_lg linear .1s infinite alternate;
+}
+
+#home_page #faq .notice_hd .light_bar {
+    bottom: -13px;
+    animation: 2s roam_lg linear .1s infinite alternate;
+}
+
+.notice_hd h3 {
+    margin-bottom: 0;
+}
+
+.notice_hd {
+    padding-bottom: 15px;
+}
+
+.faq_part .faq_item .faq_qt h3 {
+    line-height: 35px;
+    padding-right: 30px;
+}
+
+.notice_counter {
+    flex-wrap: wrap;
+}
+
+.count_hd {
+    width: 100%;
+    padding-bottom: 30px;
+}
+
+.notice_counter {
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.notice_counter .count_item {
+    flex-basis: 70px;
+}
+
+.result_main .result_item .result_name {
+    width: 120px;
+}
+
+/* === === LG Subscribe Start === ==== */
+
+.subs_pay a {
+    margin-right: 5px;
+}
+
+/* === === LG About Start === ==== */
+
+.about_item .about_link a {
+    line-height: 20px;
+}
+
+#about .light_bar {
+    bottom: -11px;
+    animation: 5s roam_footer_lg linear .1s infinite alternate;
+}
+
+.security_part .about_sec .sec_link a {
+    line-height: 25px;
+}
+
+/* ================== ABOUT_PAGE LG =================== */
+/* oooooooooooooooooooooooooooooooooooooooooooooooooooooo */
+
+/* === === LG About_Us: watch === ==== */
+
+#about_page .watch_photo img {
+    width: 100%;
+}
+
+#about_page #watch .watch_text {
+    padding-top: 20px;
+}
+
+/* === === LG About_Us: About === ==== */
+
+#about_page #about .light_bar {
+    bottom: -10px;
+}
+
+/* ================== SIGNUP_PAGE LG =================== */
+/* oooooooooooooooooooooooooooooooooooooooooooooooooooooo */
+
+/* === === LG SIGNup: Signup === ==== */
+
+#signup_page #signup .signup_text .sign_btm {
+    flex-wrap: wrap;
+}
+
+/* === === LG SIGNup: About === ==== */
+
+#signup_page #about .light_bar {
+    bottom: -11px;
+}
+
+/* ================== LOGIN_PAGE LG =================== */
+/* oooooooooooooooooooooooooooooooooooooooooooooooooooooo */
+
+/* === === LG LOGIN: Signup === ==== */
+
+#login_page #signup .signup_text .sign_btm {
+    flex-wrap: wrap;
+}
+
+#login_page #signup .signup_photo2 img {
+    top: -50px;
+}
+
+/* === === LG Login: About === ==== */
+
+#login_page #about .light_bar {
+    bottom: -11px;
+}
+
+/* ================== CONTACT_PAGE LG =================== */
+/* oooooooooooooooooooooooooooooooooooooooooooooooooooooo */
+
+/* === === LG CONTACT: contact === ==== */
+
+#contact .contact_olay .cont_bg .cont_part .cont_item {
+    gap: 20px;
+}
+
+#contact .contact_olay .cont_bg .cont_part .cont_item .cont_text p {
+    font-size: 16px;
+}
+
+/* ================== PROMO_PAGE LG =================== */
+/* oooooooooooooooooooooooooooooooooooooooooooooooooooooo */
+
+/* === === LG PROMO: Banner === ==== */
+
+#promo_page #banner {
+    padding-top: 145px;
+}
+
+#promo_page #banner .promo_bg {
+    padding-top: 75px;
+    padding-bottom: 75px;
+}
+
+#promo_page #banner .promo_bg .pro_ban_item {
+    position: unset;
+}
+
+#promo_page #banner .promo_bg .pro_ban_item .pro_ban_rt img {
+    position: unset;
+    transform: none;
+    width: 90%;
+}
+
+#promo_page #banner .promo_bg .pro_ban_item .pro_ban_rt h5 {
+    font-size: 150px;
+}
+
+#promo_page #banner .promo_bg .promo_text h4 {
+    font-size: 80px;
+}
+
+#promo_page #banner .promo_bg .promo_text {
+    top: 115px;
+    left: 233px;
+}
+
+#promo_page #banner .promo_bg .pro_ban_item .pro_ban_rt h3 {
+    font-size: 45px;
+}
+
+#promo_page #banner .promo_bg .pro_ban_item .pro_ban_rt h4 {
+    font-size: 70px;
+}
+
+#promo_page #banner .promo_bg .pro_ban_item .pro_ban_rt a {
+    width: auto;
+}
+
+/* === === LG PROMO: Promo === ==== */
+
+#promo_page #promo {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+#promo_page #promo .promo_lf img {
+    position: unset;
+    width: 100%;
+}
+
+#promo_page #promo .promo_rt h3 {
+    line-height: 55px;
+    padding-top: 0;
+    padding-bottom: 50px;
+}
+
+/* === === LG PROMO: About === ==== */
+
+#promo_page #about .light_bar {
+    bottom: -11px;
+}
+
+/* ================== Member_PAGE LG =================== */
+/* oooooooooooooooooooooooooooooooooooooooooooooooooooooo */
+
+/* === === LG Member: About === ==== */
+
+#member_page #banner {
+    padding-top: 245px;
+    padding-bottom: 115px;
+}
+
+/* ================== ERROR_PAGE LG =================== */
+/* oooooooooooooooooooooooooooooooooooooooooooooooooooooo */
+
+/* === === LG Error: About === ==== */
+
+#error_page #about .light_bar {
+    bottom: -11px;
+}
+
+/* ================== GAMES_PAGE LG =================== */
+/* oooooooooooooooooooooooooooooooooooooooooooooooooooooo */
+
+/* === === LG Games: About === ==== */
+
+#games_page #about .light_bar {
+    bottom: -10px;
+}
+    
+/* ==== LG END ==== */
+    
+}
+
+
+
+/* ==== ==== 5. Extra Large Devices ==== ==== */
+/* ==== ==== (xl) Screen ==== ==== */
+
+@media(min-width: 1200px) and (max-width: 1399.98px){
+    
+/* === === X-LG Common Start === ==== */
+/* === === X-LG Header Start === ==== */
+
+.navbar-nav .nav-link {
+    margin-left: 25px;
+}
+
+/* === === X-LG Banner Start === ==== */
+
+#banner {
+    padding-bottom: 450px;
+}
+
+.link_pos {
+    top: 650px;
+}
+
+.ban-rt h3 {
+    font-size: 275px;
+}
+
+.ban-rt .ban_rt_text {
+    top: 340px;
+    left: 65px;
+}
+
+.ban-rt .ban_rt_text p {
+    min-width: unset;
+    margin: 0 auto;
+    max-width: 370px;
+}
+
+/* === === X-LG FAQ Start === ==== */
+
+.notice_counter .count_hd h3 {
+    line-height: 25px;
+}
+
+.notice_counter {
+    justify-content: space-between;
+}
+
+.notice_counter .count_item {
+    width: 70px;
+}
+
+#home_page #faq .faq_hd .light_bar {
+    bottom: -13px;
+    animation: 2s roam_lg linear .1s infinite alternate;
+}
+
+#home_page #faq .notice_hd .light_bar {
+    bottom: -13px;
+    animation: 2s roam_lg linear .1s infinite alternate;
+}
+
+/* === === X-LG About Start === ==== */
+
+.about_item p {
+    max-width: 342px;
+}
+
+.about_item .about_link {
+    gap: 40px;
+}
+
+#about .light_bar {
+    bottom: -11px;
+    animation: 5s roam_footer_lg linear .1s infinite alternate;
+}
+
+/* ================== ABOUT_PAGE X-LG =================== */
+/* oooooooooooooooooooooooooooooooooooooooooooooooooooooo */
+
+/* === === X-LG About_Us: watch === ==== */
+
+#about_page #watch .watch_text {
+    padding-top: 75px;
+}
+
+/* ================== SIGNUP_PAGE X-LG =================== */
+/* oooooooooooooooooooooooooooooooooooooooooooooooooooooo */
+
+/* === === X-LG SIGNup: Signup === ==== */
+
+#signup_page #signup .signup_text .sign_btm {
+    flex-wrap: wrap;
+}
+
+/* === === X-LG SIGNup: About === ==== */
+
+#signup_page #about .light_bar {
+    bottom: -11px;
+}
+
+/* ================== LOGIN_PAGE X-LG =================== */
+/* oooooooooooooooooooooooooooooooooooooooooooooooooooooo */
+
+/* === === X-LG LOGIN: Signup === ==== */
+
+#login_page #signup .signup_text .sign_btm {
+    flex-wrap: wrap;
+}
+
+#login_page #signup .signup_photo2 img {
+    top: -55px;
+}
+
+/* === === X-LG Login: About === ==== */
+
+#login_page #about .light_bar {
+    bottom: -11px;
+}
+
+/* ================== PROMO_PAGE X-LG =================== */
+/* oooooooooooooooooooooooooooooooooooooooooooooooooooooo */
+
+/* === === X-LG PROMO: Promo === ==== */
+
+#promo_page #promo .promo_lf img {
+    position: unset;
+    width: 100%;
+}
+
+/* ================== ERROR_PAGE X-LG =================== */
+/* oooooooooooooooooooooooooooooooooooooooooooooooooooooo */
+
+/* === === X-LG Error: About === ==== */
+
+#error_page #about .light_bar {
+    bottom: -11px;
+}
+
+/* ================== GAMES_PAGE X-LG =================== */
+/* oooooooooooooooooooooooooooooooooooooooooooooooooooooo */
+
+/* === === X-LG Games: About === ==== */
+
+#games_page #about .light_bar {
+    bottom: -10px;
+}
+    
+/* ==== X-LG END ==== */
+    
+}
+
+/* ==== ==== 6. Extra Extra Large Devices ==== ==== */
+/* ==== ==== (xxl) Screen ==== ==== */
+
+@media(min-width: 1400px) and (max-width: 1599.98px){
+    
+/* === === XX-LG FAQ Start === ==== */
+
+.faq_hd .light_bar {
+    bottom: -13px;
+}
+
+.notice_hd .light_bar {
+    bottom: -13px;
+}
+
+/* === === XX-LG About Start === ==== */
+
+#about .light_bar {
+    bottom: -11px;
+}
+
+/* ================== LOGIN_PAGE XX-LG =================== */
+/* oooooooooooooooooooooooooooooooooooooooooooooooooooooo */
+
+/* === === XX-LG LOGIN: About === ==== */
+
+#login_page #about .light_bar {
+    bottom: -11px;
+}
+
+/* === === XX-LG SIGNup: About === ==== */
+
+#signup_page #about .light_bar {
+    bottom: -11px;
+}
+
+/* ================== PROMO_PAGE XX-LG =================== */
+/* oooooooooooooooooooooooooooooooooooooooooooooooooooooo */
+
+/* === === XX-LG PROMO: BANNER === ==== */
+
+#promo_page #banner .promo_bg .promo_text h4 {
+    font-size: 115px;
+}
+
+#promo_page #banner .promo_bg .promo_text {
+    top: -71px;
+    left: 321px;
+}
+
+/* === === XX-LG PROMO: PROMO === ==== */
+
+#promo_page #promo {
+    padding-bottom: 140px;
+}
+
+/* ==== XX-LG END ==== */
+
+}
+
+/* ==== ==== 6. Extra Extra Extra Large Devices ==== ==== */
+/* ==== ==== (xxx-l) Screen ==== ==== */
+
+@media(min-width: 1600px){
+
+/* === === XXX-LG FAQ Start === ==== */
+
+.faq_hd .light_bar {
+    bottom: -13px;
+}
+
+.notice_hd .light_bar {
+    bottom: -13px;
+}
+    
+/* === === XXX-LG About Start === ==== */
+
+#about .light_bar {
+    bottom: -11px;
+}
+
+/* ================== MEMBER_PAGE XXX-LG =================== */
+/* oooooooooooooooooooooooooooooooooooooooooooooooooooooo */
+
+/* === === XXX-LG Member: About === ==== */
+
+#member_page #about .light_bar {
+    bottom: -10px;
+}
+
+/* ================== CONTACT_PAGE XXX-LG =================== */
+/* oooooooooooooooooooooooooooooooooooooooooooooooooooooo */
+
+/* === === XXX-LG Member: About === ==== */
+
+#contact_page #about .light_bar {
+    bottom: -10px;
+}
+
+    
+/* ==== XX-LG END ==== */
+    
+}
